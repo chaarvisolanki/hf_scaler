@@ -1,0 +1,47 @@
+<<<<<<< HEAD
+name: "Task Priority Scheduler"
+version: "1.0.0"
+description: "AI agent learns to schedule daily tasks"
+author: "Your Name"
+tags:
+  - productivity
+  - scheduling
+  - openenv
+
+tasks:
+  - id: "easy"
+    name: "Deadline Sorting"
+    description: "Sort by deadline"
+    difficulty: "easy"
+  - id: "medium"
+    name: "Multi-Criteria Scheduling"
+    description: "Deadline + importance + dependencies"
+    difficulty: "medium"
+  - id: "hard"
+    name: "Optimal Scheduling"
+    description: "Full optimization"
+    difficulty: "hard"
+=======
+name: "Task Priority Scheduler"
+version: "1.0.0"
+description: "AI agent learns to schedule daily tasks"
+author: "Your Name"
+tags:
+  - productivity
+  - scheduling
+  - openenv
+
+tasks:
+  - id: "easy"
+    name: "Deadline Sorting"
+    description: "Sort by deadline"
+    difficulty: "easy"
+  - id: "medium"
+    name: "Multi-Criteria Scheduling"
+    description: "Deadline + importance + dependencies"
+    difficulty: "medium"
+  - id: "hard"
+    name: "Optimal Scheduling"
+    description: "Full optimization"
+    difficulty: "hard"
+>>>>>>> 9e48d59df39c9a052039194c2cde127befed3b61
