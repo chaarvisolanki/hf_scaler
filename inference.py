@@ -48,7 +48,7 @@ def run_inference(task_level: str) -> dict:
     # Get task IDs in order
     task_ids = [t.task_id for t in scheduled_order]
     
-    print(f"[PLAN] Scheduled order: {task_ids}")
+    print(f"[START] Scheduled order: {task_ids}")
     
     # Execute scheduling actions
     for task_id in task_ids:
@@ -62,7 +62,6 @@ def run_inference(task_level: str) -> dict:
     )
     
     print(f"[END] Task: {task_level}, Final Score: {final_reward.score:.3f}")
-    print(f"[BREAKDOWN] {final_reward.breakdown}")
     
     return {
         "task_level": task_level,
